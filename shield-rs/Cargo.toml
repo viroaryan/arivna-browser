@@ -3,7 +3,7 @@ name = "arivna_shield"
 version = "1.0.0"
 edition = "2021"
 description = "Arivna Shield: a from-scratch, uBlock Origin-compatible content blocking engine for Android WebView."
-license = "MIT"
+license = "GPL-3.0-or-later"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

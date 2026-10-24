@@ -20,7 +20,7 @@ The bundled GPL-3.0 lists are distributed as separate data files under their own
 
 ## Arivna Shield (Rust, `shield-rs/`)
 
-`shield-rs/Cargo.toml` declares `license = "MIT"` for the engine itself (see the Licence section of README.md: the project licence is still pending).
+Arivna Browser, including the `shield-rs` engine, is licensed under GPL-3.0-or-later (see [LICENSE](LICENSE)). The components below keep their own licences.
 
 Crates compiled into `libarivna_shield.so`:
 
