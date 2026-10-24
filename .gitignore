@@ -1,0 +1,26 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+*.png
+*.xml.bak
+!app/src/**/*.png
+!docs/screens/*.png
+docs/firefox/*.png
+shield-rs/target/
+
+# Signing (never commit)
+keystore.properties
+*.jks
+*.keystore
+
+# Local debugging dumps in the project root (UI hierarchy XML, logs)
+/*.xml
+/*.log
+
+# bench: keep scripts, lists.json, package files and REPORT.md; the rest is regenerated
+bench/node_modules/
+bench/active/
+bench/*.tsv
+bench/mismatch.json
+bench/diff.txt

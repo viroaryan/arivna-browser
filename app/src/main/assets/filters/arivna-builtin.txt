@@ -1,0 +1,23 @@
+! Title: Arivna built-in filters
+! Clean links: strip common tracking parameters from navigations
+$removeparam=/^utm_/
+$removeparam=fbclid
+$removeparam=gclid
+$removeparam=dclid
+$removeparam=msclkid
+$removeparam=yclid
+$removeparam=igshid
+$removeparam=mc_eid
+$removeparam=_hsenc
+$removeparam=_hsmi
+$removeparam=mkt_tok
+$removeparam=oly_anon_id
+$removeparam=oly_enc_id
+$removeparam=vero_id
+$removeparam=wickedid
+$removeparam=twclid
+$removeparam=ttclid
+||youtube.com^$removeparam=si
+||youtu.be^$removeparam=si
+||instagram.com^$removeparam=igsh
+||open.spotify.com^$removeparam=si
