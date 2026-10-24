@@ -187,6 +187,6 @@ Please report vulnerabilities privately to **contactus@arivna.com**, not in publ
 
 ## Licence
 
-The licence for Arivna's own code has **not been chosen yet**. Until a `LICENSE` file is added, all rights are reserved by the authors: you may read and build the code, but not redistribute it.
+Arivna Browser is free software, licensed under the **GNU General Public License v3.0 or later** (GPL-3.0-or-later): see [LICENSE](LICENSE). You may use, study, share and modify it; if you distribute a modified version, you must also release its source under the same licence.
 
 Bundled third-party components (filter lists, Rust crates, icons, libraries) keep their own licences: see [NOTICE.md](NOTICE.md).
