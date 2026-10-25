@@ -2,6 +2,19 @@
 
 All notable changes to Arivna Browser are listed here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] - 2026-10-25
+
+New logo and a privacy fix (versionCode 2).
+
+### Changed
+- New app icon and in-app logo: a white alpaca on green. The launcher icon is an adaptive icon with a themed (monochrome) layer for Android 13 and newer.
+
+### Security
+- WebView anonymous usage and crash diagnostics are switched off (`android.webkit.WebView.MetricsOptOut`). Before, WebView could send them to Google when the phone's usage-sharing setting was on.
+
+### Performance
+- The tab switcher keeps the open page attached to the screen instead of rebuilding it, which avoids a costly re-attach when switching tabs.
+
 ## [1.0.0] - 2026-10-24
 
 First public release (versionCode 1). Android 8.0+ (minSdk 26), targets Android 16 (API 36). "Changed" and "Removed" compare with earlier internal test builds.
@@ -46,4 +59,5 @@ First public release (versionCode 1). Android 8.0+ (minSdk 26), targets Android 
 - Engine agrees with uBlock Origin's own network engine on 99.995 % of 83,631 test requests; about 5x faster to build and 9x faster to restore from cache (desktop). Method: `bench/REPORT.md`.
 - Cheaper tab switching; at most four tabs keep a live WebView.
 
+[1.0.1]: https://github.com/viroaryan/arivna-browser-releases/releases/tag/v1.0.1
 [1.0.0]: https://github.com/viroaryan/arivna-browser-releases/releases/tag/v1.0.0

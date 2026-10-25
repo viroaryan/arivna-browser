@@ -15,8 +15,8 @@ android {
         minSdk = 26
         targetSdk = 36
         // Play rejects an upload whose versionCode is not higher than the last one: bump it on every release.
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.1"
         // x86 (32-bit) is emulator-only; the Rust engine is built for these three.
         ndk { abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64") }
     }

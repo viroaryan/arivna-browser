@@ -45,6 +45,9 @@
         android:theme="@style/Theme.Arivna"
         android:usesCleartextTraffic="true">
 
+        <!-- WebView would otherwise send Google anonymous diagnostics when Android usage sharing is on. -->
+        <meta-data android:name="android.webkit.WebView.MetricsOptOut" android:value="true" />
+
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation|uiMode|density|fontScale|locale|layoutDirection"

@@ -1,10 +1,14 @@
-# Arivna Browser (Android)
+<p align="center"><img src="docs/logo.png" alt="Arivna logo" width="112" height="112"></p>
+
+<h1 align="center">Arivna Browser</h1>
+
+<p align="center">A private Android browser with its own Rust ad and tracker blocker.<br>Free, no account, no telemetry, open source.</p>
 
 A private web browser for Android 8.0+ with a built-in ad and tracker blocker.
 
 - Pages are rendered by the **Android System WebView** (Chromium), the engine already on your phone. Arivna's own parts are the user interface (Kotlin, Jetpack Compose) and **Arivna Shield**, an ad-block engine written in Rust.
 - Free. No ads, no account, no analytics or telemetry.
-- Package `com.arivna.browser`, version 1.0.0, minSdk 26, targetSdk 36.
+- Package `com.arivna.browser`, version 1.0.1, minSdk 26, targetSdk 36.
 
 Website: https://arivna.in/ · Official APKs: [arivna-browser-releases](https://github.com/viroaryan/arivna-browser-releases/releases) · Google Play: coming soon.
 

@@ -24,3 +24,5 @@ bench/active/
 bench/*.tsv
 bench/mismatch.json
 bench/diff.txt
+!docs/logo.png
+!store-listing/*.png
